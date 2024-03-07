@@ -1,0 +1,63 @@
+body {
+    background-image: url('https://kartinki.pics/uploads/posts/2022-02/1645042872_1-kartinkin-net-p-uspokaivayushchie-kartinki-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 3%;
+    width: 22.5%;
+    height: 40.5%;
+}
+
+.cell {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    border: 0px solid #000;
+    color: white;
+}
+.button {
+  width: 70%;
+  height: 100%;
+  margin: 4% 0%;
+  position: relative;
+  left: 20px;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  background: #0B63F6;
+  box-shadow: 0 5px 0 #003CC5;
+  ;
+}
+.button:hover {
+    background: #003CC5;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+
+.buttonHandler{
+  display: block;
+  position: relative;
+  width: 8%;
+  height: 5%;
+  bottom: 5%;
+}
